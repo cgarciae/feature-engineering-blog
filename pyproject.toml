@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "feature-engineering-blog"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Garcia <cgarcia.e88@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+scikit-learn = "^0.24.2"
+matplotlib = "^3.4.2"
+jupyterlab = "^3.0.16"
+seaborn = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
